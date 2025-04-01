@@ -1,61 +1,70 @@
-Couples
+Couple
   - couple_id
   - pro_dancer_id
   - celebrity_id
   
 Series
   - series_number
- 
-ProfessionalDancers
+  - first_episode_id
+
+
+ProfessionalDancer
   - pro_dancer_id
   - pro_dancer_first_name
   - pro_dancer_last_name
 
-Celebrities
+Celebrity
   - celebrity_id
   - celebrity_first_name
   - celebrity_last_name
 
-Winners
-  - winners_id
-  - episode_id
-  - couple_id
+CompetitionRound
+  - competition_round_id
+  - competition_round_name [quarter-final, semi-final, final]
 
-Scores
+Theme
+  - theme_id
+  - theme_name
+
+Score
   - score_id
   - performance_id
   - judge_id
   - score
 
-Episodes
+Episode
   - episode_id
   - week_number
   - series_number
   - date_transmission
+  - theme_id
+  - competition_round_id
   
-Dances
+Dance
   - dance_id
   - dance_name
   
-Judges
+Judge
   - judge_id
   - judge_name_first
   - judge_name_last
 
-
-Performances
+Performance
   - couple_id
   - dance_id
   - song_id
   - episode_id
 
-DanceOffs
+DanceOff
   - episode_id
   - couple_id
-  - saved
   
 Song
   - song_id
-  - artist_name
+  - artist_id
   - song_name
+
+Artist
+  - artist_id
+  - artist_name
   
