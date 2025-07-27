@@ -3,6 +3,8 @@
 
 <p>Initial assessment is that it has some useful things to say about recording eliminations of couples.</p>
 
+<p>Prompted can you generate sql tables from strictly come dancing tv episodes results data</p>
+
 <div>
 <p><strong>Core Principles:</strong></p>
 <ul>
